@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpClient", "UdpClient\UdpC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpServer", "UdpServer\UdpServer.csproj", "{7ADA35A4-58B5-46A4-BE92-4E65059A89AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NModBusApp", "NModBusApp\NModBusApp.csproj", "{B8CB7F05-36B3-4780-A44D-F080B95C521F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{7ADA35A4-58B5-46A4-BE92-4E65059A89AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ADA35A4-58B5-46A4-BE92-4E65059A89AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ADA35A4-58B5-46A4-BE92-4E65059A89AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CB7F05-36B3-4780-A44D-F080B95C521F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CB7F05-36B3-4780-A44D-F080B95C521F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CB7F05-36B3-4780-A44D-F080B95C521F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CB7F05-36B3-4780-A44D-F080B95C521F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
