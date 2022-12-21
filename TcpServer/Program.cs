@@ -33,13 +33,13 @@ namespace TcpServer
                             try
                             {
                                 //Invio e ricezione dei dati
-                                byte[] inMsgByte = new byte[100];
+                                byte[] inMsgByte = new byte[200];
                                 await networkStream.ReadAsync(inMsgByte, 0, inMsgByte.Length);
-                                string inMsg = Encoding.ASCII.GetString(inMsgByte);
+                                //string inMsg = Encoding.ASCII.GetString(inMsgByte);
 
-                                string outMsg = $"Echo di: {inMsg}";
-                                byte[] outMsgByte = Encoding.ASCII.GetBytes(outMsg);
-                                await networkStream.WriteAsync(outMsgByte, 0, outMsgByte.Length);
+                                //string outMsg = $"Echo di: {inMsg}";
+                                //byte[] outMsgByte = Encoding.ASCII.GetBytes(outMsg);
+                                await networkStream.WriteAsync(inMsgByte, 0, inMsgByte.Length);
                             }
                             catch (Exception e)
                             {
