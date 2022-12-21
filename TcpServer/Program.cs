@@ -46,7 +46,7 @@ namespace TcpServer
                                 Console.WriteLine("Connessione client chiusa");
                                 Logger logger = LogManager.GetCurrentClassLogger();
 
-                                logger.Info("Connessione client chiusa");
+                                logger.Debug("Connessione chiusa");
 
                                 break;
                             }
